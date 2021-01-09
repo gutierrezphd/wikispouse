@@ -5,7 +5,6 @@
 wikispouse <- function() {
   require(rvest)
   require(stringi)
-  require(tidyverse)
   require(magrittr)
   require(tools)
   name.space <- readline("Name: ")
